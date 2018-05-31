@@ -1,6 +1,6 @@
 # MindMaps
 
-This repository will containts multiple MindMaps related to different topis.
+This repository will containts multiple MindMaps related to different topics.
 
 
 # MindMaps file arrangements
@@ -11,4 +11,4 @@ Mindmap linked files will be kept in the folder with the same name. Mindmap file
 
 # Visualisation Tool
 
-To visualise the MindMap, please you [FreePlane](https://sourceforge.net/projects/freeplane) 
+To visualise the MindMap, please use [FreePlane](https://sourceforge.net/projects/freeplane) 
