@@ -2,6 +2,10 @@
 
 This repository will containts multiple MindMaps related to different topics.
 
+## Machine Learning
+
+It will contain information about various Machine Learning and Deep Learning algorithms and their possible usages in Bioinformatics.
+
 
 # MindMaps file arrangements
 
