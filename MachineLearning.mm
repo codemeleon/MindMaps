@@ -50,7 +50,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="4"/>
 <node TEXT="Labeled" POSITION="right" ID="ID_1084726081" CREATED="1525271385546" MODIFIED="1525271391774">
 <edge COLOR="#ff0000"/>
 </node>
@@ -101,11 +101,35 @@ print(&quot;test&quot;)</pre>
 <edge COLOR="#007c00"/>
 <node TEXT="Unsupervised" ID="ID_644025487" CREATED="1525335183799" MODIFIED="1525335211334">
 <font BOLD="false"/>
-<node TEXT="Clustering" ID="ID_504878018" CREATED="1525335197934" MODIFIED="1525335201099"/>
-<node TEXT="Dimension reduction" ID="ID_50906647" CREATED="1525335228134" MODIFIED="1525335233537"/>
+<node TEXT="Clustering" ID="ID_504878018" CREATED="1525335197934" MODIFIED="1528548366823"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Grouping dataset into logiical groups of related items
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Dimension reduction" ID="ID_50906647" CREATED="1525335228134" MODIFIED="1525335233537">
+<node TEXT="Reduces computation intensiveness" ID="ID_1536282142" CREATED="1528548385677" MODIFIED="1528548441297"/>
+<node TEXT="Seek for the variables which preserve  most of the information (~90-95%) and use them for analysis" ID="ID_1701123949" CREATED="1528548459722" MODIFIED="1528548523584"/>
+</node>
 <node TEXT="K-Means" ID="ID_729238143" CREATED="1525342838422" MODIFIED="1525342844538"/>
 <node TEXT="Expecation Maximisation" ID="ID_555958881" CREATED="1525342845510" MODIFIED="1525342857867"/>
 <node TEXT="Parzen window" ID="ID_984040472" CREATED="1525342859878" MODIFIED="1525342872044"/>
+<node TEXT="Anomaly Detection" ID="ID_888179917" CREATED="1528548559059" MODIFIED="1528548566082">
+<node TEXT="Finding outliars" ID="ID_853223879" CREATED="1528548579025" MODIFIED="1528548585576"/>
+<node TEXT="Applicability" ID="ID_1537832387" CREATED="1528548614181" MODIFIED="1528548620159">
+<node TEXT="Health monitoring" ID="ID_1539599422" CREATED="1528548622777" MODIFIED="1528548640577"/>
+<node TEXT="Event detection" ID="ID_1804398580" CREATED="1528548641828" MODIFIED="1528548650207"/>
+<node TEXT="Fraud Detection" ID="ID_80886103" CREATED="1528548652925" MODIFIED="1528548663292"/>
+</node>
+</node>
 </node>
 <node TEXT="Supervised" ID="ID_1536874534" CREATED="1525335191910" MODIFIED="1525335195682">
 <node TEXT="K-Nearrest Neighbours" ID="ID_1032555747" CREATED="1525342877687" MODIFIED="1525342888725">
@@ -176,10 +200,77 @@ print(&quot;test&quot;)</pre>
 </node>
 <node TEXT="Random Forest" ID="ID_75810955" CREATED="1525438514102" MODIFIED="1525438521819"/>
 </node>
-<node TEXT="Linear Regression" ID="ID_166270094" CREATED="1525342941906" MODIFIED="1525342949887"/>
+<node TEXT="Linear Regression" ID="ID_166270094" CREATED="1525342941906" MODIFIED="1525342949887">
+<node TEXT="examples" ID="ID_1326542636" CREATED="1528547948509" MODIFIED="1528547953031">
+<node TEXT="Retail sale" ID="ID_943530104" CREATED="1528547960938" MODIFIED="1528547977668"/>
+<node TEXT="credit card score" ID="ID_636863893" CREATED="1528547978518" MODIFIED="1528547992693"/>
+</node>
+</node>
 <node TEXT="Local weighted Linear Regression" ID="ID_1933018938" CREATED="1525342907392" MODIFIED="1525342931582"/>
 <node TEXT="Ridge" ID="ID_668850913" CREATED="1525342951538" MODIFIED="1525342956823"/>
 <node TEXT="Lasso" ID="ID_1628588102" CREATED="1525342957323" MODIFIED="1525342960343"/>
+<node TEXT="Classification Steps" ID="ID_808172234" CREATED="1528548053048" MODIFIED="1528548065973">
+<node TEXT="Training" ID="ID_1441791074" CREATED="1528548069744" MODIFIED="1528548122294"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Based on exisiting data
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Testing" ID="ID_909929611" CREATED="1528548075447" MODIFIED="1528548164592"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Evaluation based on existing data
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Prediction" ID="ID_1517554348" CREATED="1528548082887" MODIFIED="1528548223588"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Based on the data which are not part of either Training or Testing
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Reinforcement" ID="ID_1536428871" CREATED="1528547819504" MODIFIED="1528548823311"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Punishment (for mistake) and Reward (for correctness). Maximising the rewards.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Markov Decision Process" ID="ID_1760173779" CREATED="1528547862563" MODIFIED="1528547875927"/>
+<node TEXT="Q-learning" ID="ID_1160845141" CREATED="1528548691941" MODIFIED="1528548696724"/>
+<node TEXT="Temporal Difference methods" ID="ID_685727136" CREATED="1528548698178" MODIFIED="1528548721529"/>
+<node TEXT="Monte-Carlo methods" ID="ID_1071190600" CREATED="1528548709827" MODIFIED="1528548718258"/>
 </node>
 <node TEXT="Algorithms (Visual)" ID="ID_601912106" CREATED="1527839247598" MODIFIED="1527839291098">
 <hook URI="MachineLearning/Learning_Algorithms.png" SIZE="0.40567952" NAME="ExternalObject"/>
@@ -244,12 +335,12 @@ print(&quot;test&quot;)</pre>
 </node>
 <node TEXT="Response variable (Output)" ID="ID_118631579" CREATED="1525334319026" MODIFIED="1525334335934">
 <node TEXT="Numerical" ID="ID_91157454" CREATED="1525334671949" MODIFIED="1525334869967">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1935599504" STARTINCLINATION="106;0;" ENDINCLINATION="106;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1642912494" STARTINCLINATION="101;0;" ENDINCLINATION="101;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1935599504" STARTINCLINATION="106;0;" ENDINCLINATION="106;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="Categorical" ID="ID_80172233" CREATED="1525334676132" MODIFIED="1525334877932">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_986948455" STARTINCLINATION="154;0;" ENDINCLINATION="154;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1340973989" STARTINCLINATION="155;0;" ENDINCLINATION="155;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_986948455" STARTINCLINATION="154;0;" ENDINCLINATION="154;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -402,6 +493,24 @@ print(&quot;test&quot;)</pre>
 </node>
 <node TEXT="" POSITION="right" ID="ID_144156273" CREATED="1527771625940" MODIFIED="1527771625962">
 <edge COLOR="#00ff00"/>
+</node>
+<node TEXT="Machine Learning Frameworks" POSITION="left" ID="ID_919830584" CREATED="1528548916492" MODIFIED="1528548950327">
+<edge COLOR="#ff00ff"/>
+<node TEXT="Knowledge Discovery Databases (KDD) process model" ID="ID_1169374904" CREATED="1528548956149" MODIFIED="1528548974394">
+<node TEXT="Steps" ID="ID_569782561" CREATED="1528549108878" MODIFIED="1528704845341">
+<hook URI="MachineLearning/KDD.jpg" SIZE="0.82417583" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="CRoss Industrial Standard Process for Data Mining (CRISP &#x2013; DM)" ID="ID_462183181" CREATED="1528548975494" MODIFIED="1528548986779">
+<node TEXT="Steps" ID="ID_1245265718" CREATED="1528549222858" MODIFIED="1528705547238">
+<hook URI="MachineLearning/CRISP_DM.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Sample, Explore, Modify, Model and Assess (SEMMA)" ID="ID_680720922" CREATED="1528548996307" MODIFIED="1528549000288">
+<node TEXT="Stepts" ID="ID_503640223" CREATED="1528705556260" MODIFIED="1528705631943">
+<hook URI="MachineLearning/SEMMA.JPG" SIZE="0.9063444" NAME="ExternalObject"/>
+</node>
+</node>
 </node>
 </node>
 </map>
